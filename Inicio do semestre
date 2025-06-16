@@ -1,0 +1,112 @@
+projeto2
+idade = int(input("digite a sua idade:"))
+if idade >= 18:
+    print("você é maior de idade!")
+else:
+    print("você é menor de idade")
+# from itertools import count
+
+nota1 = float(input("digite NOTA1:"))
+nota2 = float(input("digite NOTA2:"))
+media = (nota1+nota2)/2
+if media >= 7.0:
+    print("Aprovado")
+elif media >= 5.0:
+    print ("em recupeção")
+else:
+    print("reprovado")
+# ##
+numero1 = int(input("Digite um número: "))
+if numero1 > 0:
+    print(f'O número é positivo.')
+elif numero1 < 0:
+    print(f'O número é negativo.')
+else :
+    print(f'O número é igual a 0.')
+##
+letra = input("Digite uma letra do alfabeto: ")
+if letra == 'a' or letra == 'e' or letra == 'i 'or letra == 'o 'or letra ==' u':
+    print(f'A letra é uma vogal.')
+else:
+    print(f'A letra é uma consoante.')
+# ##
+a = float(input("digite o valor de um dos lados do triângulo:"))
+b = float(input("digite o valor do outro lado do triângulo:"))
+c = float(input("digite o valor da base do triângulo:"))
+if a==b and b==c:
+    print("o triângulo é equilátero.")
+elif (a==b and b!=c) or (a!=b and b==c) or (a==c and b!=c):
+    print("o triângulo é isóleces.")
+else:
+    print("o triângulo é escaleno.")
+#
+salarioatual = float(input("digite o valor do salario atual:"))
+tempo = int (input("digite o tempo de serviço em anos:"))
+if tempo >  5:
+    salario = salarioatual*0.05
+    print("o salario agora é:"+salario)
+else:
+#     print ("nao recebeu bonus.")
+valordacompra = float(input("digite o valor da compra:"))
+if valordacompra > 100.100:
+    valortotal = valordacompra*0.10
+    print(f'ganhou desconto.apos ele o valor total é{valortotal}')
+else:
+    print("não ganhou desconto.")
+##
+idade = int(input("Digite sua idade:"))
+if idade >= 0 and idade <=12:
+    print("Voce é criança.")
+elif idade>=13 and idade <= 17:
+    print("Voce é adolescente.")
+elif idade>=18 and idade <= 59:
+    print("Voce é adulto.")
+elif idade>= 60:
+    print("Voce é idoso.")
+else:
+    print("Voce nao existe.")
+##
+nota = float(input("Digite sua nota:"))
+if nota == 10 or nota ==9:
+    print("Sua nota é A.")
+elif nota==8.9 or nota == 7:
+    print("Sua nota é B.")
+elif nota==6.9 or nota == 5:
+    print("Sua nota é C.")
+elif nota< 5:
+    print("Sua nota é D.")
+else:
+    print("Voce nao tem nota.")
+##
+salario = float(input("Digite seu salário:"))
+if salario <= 20.000:
+   print(f"Seu salário continua igual.")
+elif salario>=20.001 and salario <= 50.000:
+    salario_novo = salario *  0.15
+    print(f"Seu salário agora é:{salario_novo}")
+elif salario>50.000:
+    salario_novo = salario * 0.25
+    print(f"Seu salário novo é: {salario_novo} .")
+else:
+    print("Voce nao tem salario.")
+##
+idade = int(input("Digite sua idade:"))
+if idade>= 18:
+   if idade>=21:
+    print("Voce é maior de idade e pode tirar carta.")
+   else:
+    print("Voce é maior de idade e nao pode tirar carta.")
+else:
+    print("Voce é menor de idade.")
+# 
+palavra = input("Digite uma palavra:")
+palavra = palavra.upper()
+a = palavra.count('A')
+e = palavra.count('E')
+i = palavra.count('I')
+o = palavra.count('O')
+u = palavra.count('U')
+
+
+
+
